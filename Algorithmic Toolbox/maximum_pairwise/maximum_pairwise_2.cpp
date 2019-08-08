@@ -1,7 +1,13 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+/*
+本來想使用sort完後的vector直接取後面兩個相乘
 
+但要使用sort必須先知道記憶體位置
+
+失敗
+*/
 using namespace std;
 
 int max_fun(const vector<int> input)
