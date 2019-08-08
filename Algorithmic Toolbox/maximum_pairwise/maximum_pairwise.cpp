@@ -1,7 +1,13 @@
 #include<vector>
 #include<iostream>
 using namespace std;
-
+/*
+用迭代器找到最大的值
+再用erase刪去
+接著找第二大的值
+回傳兩者相乘
+20190808
+*/
 long maximum_pairwise(vector<long> input)
 {
    long n = input.size();
